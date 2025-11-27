@@ -1,3 +1,15 @@
+'''7.	Given list of items purchased in a file display the following: No of items purchased, No of free items, Amount to pay, Discount given, Final amount paid
+Concepts: files, dictonary
+
+Sample output for purchase-1.txt file:
+No of items purchased: 5 
+No of free items: 2
+Amount to pay: 485
+Discount given: 80
+Final amount paid: 405
+
+(Test your program on below given purchase-1.txt and purchase-2.txt)'''
+
 # Program to read items purchased from file and calculate billing details
 
 with open("items.txt", "w") as f:
@@ -40,3 +52,4 @@ print("Number of free items      :", free_items)
 print("Amount before discount     : ₹", amount_to_pay)
 print("Discount given             : ₹", discount)
 print("Final amount to be paid    : ₹", final_amount)
+
