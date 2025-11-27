@@ -1,4 +1,4 @@
-'''5.	Design a module math_utils.py with functions:
+'''Design a module math_utils.py with functions:
 factorial(n)
 is_prime(n)
 gcd(a,b)
@@ -52,4 +52,5 @@ print("Is Prime?:", is_prime(p))
 a = int(input("Enter first number for GCD: "))
 b = int(input("Enter second number for GCD: "))
 print("GCD:", gcd(a, b))
+
 
