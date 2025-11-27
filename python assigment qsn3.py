@@ -1,4 +1,4 @@
-'''3.	You’re building a small program for a school. The user must enter the student’s name and marks in three subjects. The program should calculate the total, average, and display a grade. If marks are not between 0 and 100, show an error message. 
+'''You’re building a small program for a school. The user must enter the student’s name and marks in three subjects. The program should calculate the total, average, and display a grade. If marks are not between 0 and 100, show an error message. 
 Concepts: Input/Output, data validation, arithmetic, if–elif–else.'''
 
 # Student grade calculator program
@@ -34,4 +34,5 @@ else:
     print("Total Marks:", total)
     print("Average Marks:", average)
     print("Grade:", grade)
+
 
