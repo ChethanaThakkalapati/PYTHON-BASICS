@@ -1,4 +1,4 @@
-'''7.	Given list of items purchased in a file display the following: No of items purchased, No of free items, Amount to pay, Discount given, Final amount paid
+'''Given list of items purchased in a file display the following: No of items purchased, No of free items, Amount to pay, Discount given, Final amount paid
 Concepts: files, dictonary
 
 Sample output for purchase-1.txt file:
@@ -52,4 +52,5 @@ print("Number of free items      :", free_items)
 print("Amount before discount     : ₹", amount_to_pay)
 print("Discount given             : ₹", discount)
 print("Final amount to be paid    : ₹", final_amount)
+
 
